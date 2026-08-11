@@ -1,20 +1,33 @@
 # catppuccin-frappeify
+
 some small CSS files you can import to make your website catppuccin frappe themed
 
-there are 2 versions of the project: the default version with only the colors (```/src/colorv/```) and there is a version with the colors, margins and font included (```/src/fullv/```)
+there are 2 versions of the project: the default version with only the colors (```/src/colorv/```) and there is a
+version with the colors, margins and font included (```/src/fullv/```)
 
 # notice
-because Catppuccin doesn't have a default font this project is gonna use DepartureMonoNerdFont, you can choose another font. Nerd Fonts are great because they have the most icons (https://www.nerdfonts.com/), and their open-source + free
+
+because Catppuccin doesn't have a default font this project is gonna use DepartureMonoNerdFont, you can choose another
+font. Nerd Fonts are great because they have the most icons (https://www.nerdfonts.com/), and their open-source + free
 
 # warning
-all the tags are defined with !important (it will override all CSS connected to the HTML file)
-for code quality you should back up your existing CSS code in a ```./backup/``` folder in your root directory of your project
 
-# usage
+all the tags are defined with !important (it will override all CSS connected to the HTML file)
+for code quality you should back up your existing CSS code in a ```./backup/``` folder in your root directory of your
+project
+
+# setup
 
 dependencies: Lua 5.1+ and Posix-Compatible SH (use VM on Windows)
 
-clone the GitHub repo: ```git clone https://www.github.com/wak6817/catppuccin-frappeify.git``` open a shell in the root folder of the project and run ```lua run.lua```,
-choose color version for only the color stylesheet or choose full version for the colors, fonts and margins
+clone the GitHub repo: ```git clone https://www.github.com/wak6817/catppuccin-frappeify.git``` open a shell in the root
+folder of the project and run ```lua run.lua```, choose color version for only the color stylesheet or choose full
+version for the colors, fonts and margins
 
-copy the ```colorv.css``` file or ```fullv.css``` version to your project and assign it to every HTML file, it will overwrite all your non-!important CSS attributes automatically
+copy the ```colorv.css``` file or ```fullv.css``` version to your project and assign it to every HTML file, it will
+overwrite all your non-!important CSS attributes automatically
+
+# api
+
+there are 3 classes that you can use in your website: error, warning and success. they will color the text of your HTML
+tag
