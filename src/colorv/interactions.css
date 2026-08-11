@@ -1,13 +1,13 @@
 a:link {
-    color: #8caaee;
+    color: var(--blue);
 }
 
 a:visited {
-    color: #ca9ee6;
+    color: var(--mauve);
 }
 
 button, input, textarea, select {
-    color: #c6d0f5;
-    background-color: #414559;
-    border-color: #232634;
+    color: var(--text);
+    background-color: var(--base);
+    border-color: var(--crust)
 }
