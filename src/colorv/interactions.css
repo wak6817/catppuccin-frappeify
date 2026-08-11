@@ -6,7 +6,7 @@ a:visited {
     color: #ca9ee6;
 }
 
-button {
+button, input, textarea, select {
     color: #c6d0f5;
     background-color: #414559;
     border-color: #232634;
