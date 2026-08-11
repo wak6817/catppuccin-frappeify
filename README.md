@@ -5,8 +5,6 @@ some small CSS files you can import to make your website catppuccin frappe theme
 there are 2 versions of the project: the default version with only the colors (```/src/colorv/```) and there is a
 version with the colors, margins and font included (```/src/fullv/```)
 
-# notice
-
 because Catppuccin doesn't have a default font this project is gonna use DepartureMonoNerdFont, you can choose another
 font. Nerd Fonts are great because they have the most icons (https://www.nerdfonts.com/), and their open-source + free
 
