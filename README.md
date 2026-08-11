@@ -1,11 +1,14 @@
 # catppuccin-frappeify
 some small CSS files you can import to make your website catppuccin frappe themed
 
-we have 2 versions of the project: the default version with only the colors (```/src/colorv/```) and we have a version with the colors, margins and font included (```/src/fullv/```)
+there are 2 versions of the project: the default version with only the colors (```/src/colorv/```) and there is a version with the colors, margins and font included (```/src/fullv/```)
+
+# notice
+because Catppuccin doesn't have a default font this project is gonna use DepartureMonoNerdFont, you can choose another font. Nerd Fonts are great because they have the most icons (https://www.nerdfonts.com/), and their open-source + free
 
 # warning
 all the tags are defined with !important (it will override all CSS connected to the HTML file)
-for code quality we recommend backing up your existing CSS code in a ```./backup/``` folder in your root directory of your project
+for code quality you should back up your existing CSS code in a ```./backup/``` folder in your root directory of your project
 
 # usage
 
