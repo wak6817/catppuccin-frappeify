@@ -37,5 +37,3 @@ before:
 
 after:
 ![img_1.png](after.png)
-
-demo written by ChatGPT
