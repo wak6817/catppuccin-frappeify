@@ -1,0 +1,37 @@
+@font-face {
+  font-family: DepartureMonoNerdFont-Regular;
+  src: url("/fonts/DepartureMonoNerdFont-Regular.otf") format("opentype");
+}
+
+body {
+  background-color: #313446;
+  font-family: "DepartureMonoNerdFont-Regular", sans-serif;
+}
+
+.background { /* Artificial */
+  background-color: #414559;
+  background-position: center;
+  text-align: center;
+  width: 65%;
+  padding: 15px 15px 15px 15px;
+  margin-left: 15%;
+  color: #c6d0f5;
+}
+
+.surface1 {
+  background-color: #414559;
+  color: #51576d;
+}
+
+a:link {
+  color: #8caaee;
+}
+
+a:visited {
+  color: #ca9ee6;
+}
+
+hr {
+  color: #292c3c;
+  width: 51%; /* Match the text length*/
+}
