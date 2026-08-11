@@ -11,5 +11,22 @@ p, blockquote, pre, ul, ol, summary {
 }
 
 mark {
-    color: var(--yellow)
+    color: var(--yellow);
+    opacity: 75%;
+}
+
+del {
+    color: var(--red);
+}
+
+strong {
+    color: var(--text);
+}
+
+code {
+    color: var(--green);
+}
+
+th {
+    color: var(--sapphire);
 }

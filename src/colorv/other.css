@@ -3,3 +3,7 @@
 body {
     background-color: var(--base);
 }
+
+hr {
+    color: var(--rosewater);
+}
