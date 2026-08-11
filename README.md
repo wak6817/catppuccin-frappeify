@@ -31,3 +31,11 @@ overwrite all your non-!important CSS attributes automatically
 
 there are 3 classes that you can use in your website: error, warning and success. they will color the text of your HTML
 tag
+
+# demo
+
+before:
+![img.png](before.png)
+
+after:
+![img_1.png](after.png)
