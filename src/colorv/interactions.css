@@ -6,7 +6,7 @@ a:visited {
     color: var(--mauve);
 }
 
-button, input, textarea, select {
+button, input, textarea, select, list {
     color: var(--text);
     background-color: var(--base);
     border-color: var(--crust)

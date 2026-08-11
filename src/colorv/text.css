@@ -2,10 +2,14 @@ h1 {
     color: var(--text);
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6, list, table, form, details {
     color: var(--subtext1);
 }
 
-p {
+p, blockquote, pre, ul, ol, summary {
     color: var(--subtext0);
+}
+
+mark {
+    color: var(--yellow)
 }
