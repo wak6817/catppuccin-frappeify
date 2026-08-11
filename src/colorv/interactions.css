@@ -1,13 +1,13 @@
 a:link {
-    color: #8caaee;
+    color: #8caaee !important;
 }
 
 a:visited {
-    color: #ca9ee6;
+    color: #ca9ee6 !important;
 }
 
 button {
     color: #c6d0f5;
-    background-color: #414559;
-    border-color: #232634;
+    background-color: #414559 !important;
+    border-color: #232634 !important;
 }
