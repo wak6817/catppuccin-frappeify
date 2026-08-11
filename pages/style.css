@@ -1,3 +1,18 @@
+body {
+  padding-top: 15%;
+  padding-left: 20%;
+}
+
+.background { /* Artificial */
+  background-color: var(--surface0);
+  background-position: center;
+  text-align: center;
+  width: 65%;
+  padding: 15px 15px 15px 15px;
+  margin-left: 15%;
+  color: var(--subtext1);
+}
+
 a:link {
   color: var(--blue) !important;
 }
@@ -14,7 +29,9 @@ button, input, textarea, select, list {
 
 button:disabled {
   background-color: var(--crust) !important;
-}/* import this file in every html test*/
+}
+
+/* import this file in every html test*/
 
 body {
   background-color: var(--base) !important;
@@ -22,7 +39,9 @@ body {
 
 hr {
   color: var(--rosewater) !important;
-}h1 {
+}
+
+h1 {
   color: var(--text) !important;
 }
 
@@ -53,7 +72,9 @@ code {
 
 th {
   color: var(--sapphire) !important;
-}@font-face {
+}
+
+@font-face {
   font-family: "DepartureMono Nerd Font" !important;
   src: url("/fonts/DepartureMonoNerdFont-Regular.otf") !important;
 }
@@ -70,9 +91,13 @@ th {
 
 * {
   font-family: "DepartureMono Nerd Font", monospace !important;
-}* {
+}
+
+* {
   margin: 0 !important;
-}:root {
+}
+
+:root {
   --rosewater: #f2d5cf !important;
   --flamingo: #eebebe !important;
   --pink: #f4b8e4 !important;
