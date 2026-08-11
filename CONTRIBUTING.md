@@ -1,3 +1,4 @@
 link to catppuccin color website: https://www.catppuccin.com/pallete
 
-use CSS hexadecimal values in ```./src/```
+use the custom CSS values in ```./src/```
+read ```README.md``` for more information
