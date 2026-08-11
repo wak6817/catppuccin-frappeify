@@ -18,6 +18,10 @@ body {
   color: var(--subtext1);
 }
 
+#title {
+  color: #c6d0f5;
+}
+
 .surface1 {
   background-color: var(--surface0);
   color: var(--surface1);
