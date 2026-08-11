@@ -12,3 +12,7 @@
   font-family: "DepartureMono Nerd Font Propo";
   src: url("/fonts/DepartureMonoNerdFontPropo-Regular.otf");
 }
+
+* {
+  font-family: "DepartureMono Nerd Font", monospace;
+}

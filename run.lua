@@ -10,7 +10,7 @@ function main()
         print("write color version or full version")
         main()
     end
-    print("building file in /build/ (could take 10 seconds)")
+    print("building file in /build/out/ (could take 10 seconds)")
 end
 
 main()
