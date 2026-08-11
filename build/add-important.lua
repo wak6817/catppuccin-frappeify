@@ -1,12 +1,9 @@
-local css = io.read("*a")
-
--- Add !important to CSS declarations that don't already have it.
-css = css:gsub("(%f[%w%-][%w%-]+%s*:%s*[^;{}]+)(;)", function(declaration, semicolon)
-    if declaration:find("!important", 1, true) then
-        return declaration .. semicolon
+for line in io.lines() do
+    if line:match(":") and line:match(";") then
+        if not line:find("!important", 1, true) then
+            line = line:gsub(";%s*$", " !important;")
+        end
     end
 
-    return declaration:gsub("%s+$", "") .. " !important" .. semicolon
-end)
-
-io.write(css)
+    print(line)
+end
