@@ -6,3 +6,12 @@ we have 2 versions of the project: the default version with only the colors (```
 # warning
 all the tags are defined with !important (it will override all CSS connected to the HTML file)
 for code quality we recommend backing up your existing CSS code in a ```./backup/``` folder in your root directory of your project
+
+# usage
+
+dependencies: Lua 5.1+ and Posix-Compatible SH (use VM on Windows)
+
+clone the GitHub repo: ```git clone https://www.github.com/wak6817/catppuccin-frappeify.git``` open a shell in the root folder of the project and run ```lua run.lua```,
+choose color version for only the color stylesheet or choose full version for the colors, fonts and margins
+
+copy the ```colorv.css``` file or ```fullv.css``` version to your project and assign it to every HTML file, it will overwrite all your non-!important CSS attributes automatically
