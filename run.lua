@@ -3,11 +3,11 @@ function main()
     local version = io.read()
 
     if version == "color version" then
-        os.execute("sh build/build-colorv.sh")
+        os.execute("sh build/cfrappe/build-colorv.sh")
     elseif version == "modern version" then
-        os.execute("sh build/build-modernv.sh")
+        os.execute("sh build/cfrappe/build-modernv.sh")
     elseif version == "pixel art version" then
-        os.execute("sh build/build-pixelv.sh")
+        os.execute("sh build/cfrappe/build-pixelv.sh")
     else
         print("write color version, modern version or pixel version")
         main()
