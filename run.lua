@@ -12,7 +12,7 @@ function main()
         print("write color version, modern version or pixel version")
         main()
     end
-    print("building file in /build/out/ (could take 10 seconds)")
+    print("building file in /build/dist/ (could take 10 seconds)")
 end
 
 main()

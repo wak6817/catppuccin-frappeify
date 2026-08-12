@@ -9,4 +9,7 @@ cat "$ROOT/src/colorv/interactions.css" \
     "$ROOT/src/pixelv/margins.css" \
     "$ROOT/src/color-trans.css" \
     | lua "$ROOT/build/add-important.lua" \
-    > "$ROOT/build/out/pixelv.css"
+    > "$ROOT/build/dist/pixelv/pixelv.css"
+
+cp "$ROOT/sounds/script.js" "$ROOT/build/dist/pixelv/"
+cp "$ROOT/sounds/clickbtn.wav" "$ROOT/build/dist/pixelv/assets/"

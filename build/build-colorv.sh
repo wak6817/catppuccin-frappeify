@@ -7,4 +7,4 @@ cat "$ROOT/src/colorv/interactions.css" \
     "$ROOT/src/colorv/text.css" \
     "$ROOT/src/color-trans.css" \
     | lua "$ROOT/build/add-important.lua" \
-    > "$ROOT/build/out/colorv.css"
+    > "$ROOT/build/dist/colorv.css"

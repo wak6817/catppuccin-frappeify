@@ -9,4 +9,4 @@ cat "$ROOT/src/colorv/interactions.css" \
     "$ROOT/src/modernv/margins.css" \
     "$ROOT/src/color-trans.css" \
     | lua "$ROOT/build/add-important.lua" \
-    > "$ROOT/build/out/modernv.css"
+    > "$ROOT/build/dist/modernv.css"
