@@ -23,8 +23,8 @@ clone the GitHub repo: ```git clone https://www.github.com/wak6817/catppuccin-fr
 folder of the project and run ```lua run.lua```, choose color version for only the color stylesheet or choose full
 version for the colors, fonts and margins
 
-copy the ```colorv.css``` file or ```fullv.css``` version to your project and assign it to every HTML file, it will
-overwrite all your non-!important CSS attributes automatically
+copy the ```colorv.css``` file, ```modernv.css``` or ```pixelv``` + ```clickbtn``` version to your project and assign it
+to every HTML file, it will overwrite all your non-!important CSS attributes automatically
 
 # api
 
