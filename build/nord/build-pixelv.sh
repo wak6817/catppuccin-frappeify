@@ -1,0 +1,16 @@
+#!/bin/sh
+
+ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+echo "root:$ROOT"
+
+cat "$ROOT/src/cfrappe/colorv/interactions.css" \
+    "$ROOT/src/cfrappe/colorv/other.css" \
+    "$ROOT/src/cfrappe/colorv/text.css" \
+    "$ROOT/src/cfrappe/pixelv/fonts.css" \
+    "$ROOT/src/cfrappe/pixelv/margins.css" \
+    "$ROOT/src/cfrappe/trans.css" \
+    | lua "$ROOT/build/add-important.lua" \
+    > "$ROOT/build/dist/cfrappe/pixelv/style.css" # make sure it exists empty
+
+cp "$ROOT/sounds/cfrappe/sound.js" "$ROOT/build/dist/cfrappe/pixelv/"
+cp "$ROOT/sounds/cfrappe/clickbtn.wav" "$ROOT/build/dist/cfrappe/pixelv/assets/"

@@ -1,0 +1,11 @@
+.error {
+  color: var(--nord11);
+}
+
+.warning {
+  color: var(--nord12);
+}
+
+.success {
+  color: var(--nord14);
+}
